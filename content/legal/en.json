@@ -1,0 +1,30 @@
+{
+  "locale": "en",
+  "languageName": "English",
+  "documents": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "summary": "This policy describes data handling in the current release of 2048Pai. It is based only on the reviewed app code, Android/iOS configuration, and dependencies; planned features are not represented as live capabilities.",
+      "sections": [
+        {"heading": "Scope and publisher", "paragraphs": ["This policy applies to the 2048Pai mobile app. The publisher is DagoodPai; privacy questions may be sent to the public contact email shown on this page."]},
+        {"heading": "Current data handling", "paragraphs": ["The current release has no account creation, sign-in, or authentication and does not ask for a name, email address, telephone number, or payment information.", "Game score, best score, and language selection are held in application memory only for display and game logic while the app is running. The reviewed code does not use persistent preferences, a database, or cloud storage, so the app does not retain these values after it is closed or terminated.", "The current release does not implement server communications, file or photo uploads, advertising, analytics, crash reporting, or in-app purchases. Flutter is used to run the interface; no other third-party SDK dependency was found."]},
+        {"heading": "Permissions and network", "paragraphs": ["The Android release manifest declares no camera, microphone, location, contacts, storage, notification, or internet permission. The iOS configuration contains no purpose strings for photos, camera, microphone, location, or similar access. Internet permission appears only in Android debug/profile manifests for Flutter development and debugging, not in the release manifest.", "The app does not send data to our servers or to third parties. Accordingly, the current release has no app-controlled server-side data-retention period."]},
+        {"heading": "Sharing, retention, and deletion", "paragraphs": ["The current release does not sell, rent, share, or otherwise disclose user data to third parties. Because it creates no account, uploads no data, and maintains no server-side user profile, there is no account-deletion or server-side data-deletion process for this release.", "In-memory data disappears when the app process ends. You can end the app at any time to clear that runtime state. If a future release adds persistence, accounts, network services, or a third-party SDK, we will update this policy, in-app disclosures, and any required consent before enabling it."]},
+        {"heading": "Children", "paragraphs": ["The current release does not knowingly collect personal information. If you believe a child has provided us personal information, contact us through the published contact on this page and we will address the request as required by applicable law."]},
+        {"heading": "Changes and contact", "paragraphs": ["We may update this policy when data practices change. The updated version will show a new effective date. Direct privacy questions or access/deletion requests to the public contact email shown on this page."]}
+      ]
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "summary": "These terms set out the basic rules for using 2048Pai.",
+      "sections": [
+        {"heading": "Acceptance", "paragraphs": ["By downloading, installing, or using 2048Pai, you agree to these terms and the Privacy Policy. Do not use the app if you do not agree. Minors should use it with a parent or guardian's consent or supervision."]},
+        {"heading": "App and licence", "paragraphs": ["2048Pai is a local, offline number puzzle game. We grant you a limited, personal, non-exclusive, non-transferable, revocable licence to use the app under these terms."]},
+        {"heading": "Acceptable use", "paragraphs": ["You must not use the app contrary to applicable law, interfere with its operation, attempt to bypass security or technical limits, or commercially redistribute, reverse engineer, or infringe rights through the app unless applicable law expressly permits it."]},
+        {"heading": "Data, ads, and payments", "paragraphs": ["The current release provides no accounts, cloud sync, advertising, or in-app purchases and requires no payment. Game progress does not sync across devices and is not guaranteed to remain after you leave the app. If these functions are introduced, related terms, privacy disclosures, and store disclosures will be updated before they are enabled."]},
+        {"heading": "Disclaimers and liability", "paragraphs": ["To the maximum extent allowed by applicable law, the app is provided on an “as is” and “as available” basis without express or implied warranties. We are not liable for indirect, incidental, special, or consequential loss arising from use of or inability to use the app; liability that cannot lawfully be excluded remains unaffected."]},
+        {"heading": "Changes, termination, and contact", "paragraphs": ["We may modify or discontinue the app or these terms when reasonably necessary. Continued use after an update means acceptance of the updated terms. For questions about these terms, use the public contact email published on this page."]}
+      ]
+    }
+  }
+}

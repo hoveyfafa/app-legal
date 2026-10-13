@@ -1,0 +1,9 @@
+{
+  "appName": "2048Pai",
+  "effectiveDate": "2026-10-13",
+  "publisherName": "DagoodPai",
+  "publicContact": "hovey@vip.qq.com",
+  "draft": false,
+  "locales": ["zh-CN", "en"],
+  "documents": ["privacy", "terms"]
+}
