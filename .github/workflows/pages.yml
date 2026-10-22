@@ -24,9 +24,13 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
       - name: Build legal site
-        run: python3 tools/build_site.py --ready
+        run: |
+          python3 tools/build_site.py --ready
+          python3 tools/build_painovel.py --ready
       - name: Verify generated output
-        run: python3 tools/build_site.py --ready --check
+        run: |
+          python3 tools/build_site.py --ready --check
+          python3 tools/build_painovel.py --ready --check
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

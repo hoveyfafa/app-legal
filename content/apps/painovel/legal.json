@@ -1,0 +1,9 @@
+{
+  "app_name": "PaiNovel",
+  "operator": "DagoodPai",
+  "contact_email": "hovey@vip.qq.com",
+  "effective_date": "2026-10-13",
+  "default_language": "zh-CN",
+  "languages": ["zh-CN", "en"],
+  "documents": ["privacy", "terms"]
+}

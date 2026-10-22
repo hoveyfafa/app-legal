@@ -93,7 +93,10 @@ def build(target: Path) -> None:
 
 def compare(expected: Path, actual: Path) -> bool:
     expected_files = {p.relative_to(expected) for p in expected.rglob("*") if p.is_file()}
-    actual_files = {p.relative_to(actual) for p in actual.rglob("*") if p.is_file()} if actual.exists() else set()
+    actual_files = {
+        p.relative_to(actual) for p in actual.rglob("*")
+        if p.is_file() and "painovel" not in p.relative_to(actual).parts
+    } if actual.exists() else set()
     if expected_files != actual_files:
         print("Generated file set differs.", file=sys.stderr)
         print("Missing:", sorted(map(str, expected_files - actual_files)), file=sys.stderr)
